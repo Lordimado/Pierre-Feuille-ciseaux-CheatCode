@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="410.0" prefWidth="611.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <ImageView fitHeight="114.0" fitWidth="198.0" layoutX="388.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@clipart_objets_182.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="68.0" fitWidth="98.0" layoutX="85.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Stone.GIF" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="393.0" fitWidth="355.0" layoutX="231.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@tumblr_n11nbzoVoI1tqn5m5o1_400.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="-71.0" layoutY="-70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@46OSLS9.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="227.0" layoutY="175.0" onAction="#ToGame" mnemonicParsing="false" prefHeight="51.0" prefWidth="146.0" text="Play">
+               <font>
+                  <Font name="Bell MT" size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="227.0" layoutY="269.0" onAction="#ToAbout" mnemonicParsing="false" prefHeight="51.0" prefWidth="146.0" text="About">
+               <font>
+                  <Font name="Bell MT" size="25.0" />
+               </font>
+            </Button>
+            <Text fill="#e82424" layoutX="216.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P">
+               <font>
+                  <Font name="Magneto Bold" size="64.0" />
+               </font>
+            </Text>
+            <Text fill="#00c30d" layoutX="288.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R">
+               <font>
+                  <Font name="Magneto Bold" size="62.0" />
+               </font>
+            </Text>
+            <Text fill="#474aff" layoutX="373.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C" wrappingWidth="25.4296875">
+               <font>
+                  <Font name="Magneto Bold" size="48.0" />
+               </font>
+            </Text>
+            <Label layoutX="14.0" layoutY="369.0" text="RABAH Lord Imed" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

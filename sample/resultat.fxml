@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane layoutX="-10.0" layoutY="-9.0" prefHeight="416.0" prefWidth="619.0">
+         <children>
+            <ImageView fx:id="YouWin" fitHeight="200.0" fitWidth="279.0" layoutX="166.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@win.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="225.0" fitWidth="239.0" layoutX="371.0" layoutY="164.0" pickOnBounds="true">
+               <image>
+                  <Image url="@Edward.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="225.0" fitWidth="200.0" layoutX="14.0" layoutY="177.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
+               <image>
+                  <Image url="@095_onix_by_rayo123000-d9vbjj3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="172.0" fitWidth="157.0" layoutX="221.0" layoutY="217.0" pickOnBounds="true">
+               <image>
+                  <Image url="@chibi_konan_by_belpheus-d6v9cew.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="64.0" fitWidth="57.0" layoutX="29.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Home.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="57.0" fitWidth="57.0" layoutX="541.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@fleche2.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="Home" layoutX="32.0" layoutY="16.0" mnemonicParsing="false" onAction="#ToMenu" opacity="0.01" prefHeight="57.0" prefWidth="52.0" />
+            <Button fx:id="Rejouer" layoutX="538.0" layoutY="20.0" mnemonicParsing="false" onAction="#ToGame" opacity="0.01" prefHeight="57.0" prefWidth="52.0" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

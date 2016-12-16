@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="407.0" prefWidth="609.0">
+         <children>
+            <Text layoutX="14.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About...">
+               <font>
+                  <Font name="Vladimir Script" size="56.0" />
+               </font>
+            </Text>
+            <TextArea editable="false" layoutX="17.0" layoutY="92.0" prefHeight="270.0" prefWidth="576.0" text="Tout comme le jeu de go et le mahjong, le jeu des trois coups &#10;fut inventé en Chine. Selon un livre nommé&#10;Wuzazu (zh) (五杂组 / 五雜組, Wǔzázǔ ou 五雜俎) écrit par&#10;Xie Zhaozhi (zh) (谢肇淛 / 謝肇淛, xiè zhàozhì) vers la fin de la&#10;période Ming, les seigneurs de la dynastie Han jouaient à un jeu &#10;appelé shǒushìlìng (手勢令, shǒushìlìng, « jeu (dans lequel le &#10;perdant est obligé de boire) des signes des mains ») qui est &#10;considéré comme étant jeu des trois coups. Le premier usage &#10;de la pierre, de la feuille et des ciseaux comme les trois coups &#10;était au Japon dans le xviie siècle.&#10;Il n'y a aucune trace de pierre-feuille-ciseaux en Occident avant &#10;qu'il n'y ait de contacts directs avec l'Asie. Les auteurs occidentaux &#10;de la fin du xixe siècle l'ont seulement mentionné comme un jeu &#10;asiatique. Les Chinois et les Coréens utilisent le tissu avec la pierre &#10;et les ciseaux, alors que les Japonais utilisent la feuille. D'ailleurs &#10;l'introduction aux États-Unis était très tardive même s'il y avait &#10;déjà des coolies chinois. Ceci nous permet de supposer que ce &#10;jeu est arrivé en Occident au contact du Japon. Par ailleurs, une &#10;variante du nom de ce jeu, chifoumi, est sans doute issue du &#10;japonais Hi-fu-mi (一二三 soit 1-2-3, avec 一, 二 et 三 qui sont &#10;les chiffres 1, 2 et 3). Notons toutefois que le jeu de la mourre, &#10;autre jeu de doigts reposant sur l'affrontement réflexe entre deux &#10;adversaires, est très anciennement connu en Occident.">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </TextArea>
+            <Button layoutX="14.0" layoutY="368.0" mnemonicParsing="false" onAction="#ToMenu" style="-fx-background-color: #ff0000;" text="Retour" textFill="#f8f8f8">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>
